@@ -9,7 +9,7 @@ from cso_screenshot import *
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.tooltip = QLabel("請使用視窗化哦! by 崩潰金魚燒 <a href='https://www.youtube.com/'>Github</a>")
+        self.tooltip = QLabel("請使用視窗化哦! by 崩潰金魚燒 <a href='https://github.com/CSO-TW-GoldFish/CSO-Position-ScreenShot'>Github</a>")
         self.tooltip.setOpenExternalLinks(True)
         self.tooltip.setStyleSheet("color: red;")
         self.setWindowTitle("CSO Studio 截圖自動轉換座標")
