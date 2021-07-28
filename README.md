@@ -6,7 +6,7 @@
 
 Someone reacts, the program will crash
 
-已找到原因，需下載而外程式
+已找到原因，需下載額外程式
 
 The reason has been found, and the external program needs to be downloaded
 
