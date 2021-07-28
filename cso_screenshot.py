@@ -2,7 +2,6 @@ from win32gui import FindWindow, GetWindowRect, GetWindowDC, DeleteObject, Relea
 from win32ui import CreateDCFromHandle, CreateBitmap
 from win32con import SRCCOPY
 from PIL.Image import frombuffer
-import time
 import cv2 as cv
 import pytesseract
 
@@ -24,7 +23,7 @@ def screenshot(name):
     saveDC = mfcDC.CreateCompatibleDC()
     saveBitMap = CreateBitmap()
 
-    saveBitMap.CreateCompatibleBitmap(mfcDC,110,16)
+    saveBitMap.CreateCompatibleBitmap(mfcDC,125,27)
     saveDC.SelectObject(saveBitMap)
     saveDC.BitBlt((-x,-y), (width,height), mfcDC, (0, 0), SRCCOPY)
 
